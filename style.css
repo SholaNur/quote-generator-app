@@ -1,11 +1,11 @@
 body {
-  background-color: antiquewhite;
+  background-color: #f6f6f6;
   box-sizing: border-box;
   text-align: center;
 }
 #button {
   display: inline-block;
-  background-color: #4e9af1;
+  background-color: #8785a2;
   padding: 0.35em 1.2em;
   border: 0.1em solid #ffffff;
   margin: 2em 0.3em 0.3em 0;
@@ -21,7 +21,7 @@ body {
 }
 #button:hover {
   color: #000000;
-  background-color: #668fff;
+  background-color: #8785a2;
 }
 @media all and (max-width: 30em) {
   #button {
@@ -30,13 +30,13 @@ body {
   }
 }
 h1 {
-  color: #4e9af1;
+  color: #8785a2;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 400;
   padding: 2rem;
 }
 #wrapper {
-  background-color: #98c379;
+  background-color: #ffc7c7;
   width: 400px;
   height: 200px;
   border-radius: 5%;

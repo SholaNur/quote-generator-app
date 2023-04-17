@@ -11,7 +11,7 @@ function clickButton() {
 
       console.log(dataQuote);
       const randomQuote = Math.floor(Math.random() * dataQuote.length);
-      quote.textContent = dataQuote[randomQuote].text;
+      quote.textContent = `"${dataQuote[randomQuote].text}"`;
     });
 }
 
